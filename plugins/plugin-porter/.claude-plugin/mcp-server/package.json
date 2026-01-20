@@ -1,0 +1,22 @@
+{
+  "name": "plugin-porter-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP server for Plugin Porter - automated Claude Code to Qwen CLI conversion",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  },
+  "keywords": [
+    "mcp",
+    "plugin",
+    "porting",
+    "claude",
+    "qwen"
+  ],
+  "author": "yvett",
+  "license": "MIT"
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "plugin-porter": {
+      "command": "node",
+      "args": ["server.js"]
+    }
+  }
+}

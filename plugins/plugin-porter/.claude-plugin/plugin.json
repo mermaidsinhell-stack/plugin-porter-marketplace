@@ -1,0 +1,13 @@
+{
+  "name": "plugin-porter",
+  "version": "1.0.0",
+  "description": "Automated conversion of Claude Code plugins to Qwen CLI + MCP architecture",
+  "author": {
+    "name": "yvett",
+    "email": ""
+  },
+  "category": "development-tools",
+  "keywords": ["plugin", "conversion", "porting", "qwen", "mcp"],
+  "repository": "",
+  "license": "MIT"
+}
