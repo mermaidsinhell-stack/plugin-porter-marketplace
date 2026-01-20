@@ -2,6 +2,12 @@
   "name": "plugin-porter-marketplace",
   "displayName": "Plugin Porter Marketplace",
   "description": "Tools for converting Claude Code plugins to Qwen CLI + MCP architecture",
-  "author": "yvett",
-  "version": "1.0.0"
+  "owner": "mermaidsinhell-stack",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "plugin-porter",
+      "path": "plugins/plugin-porter"
+    }
+  ]
 }
