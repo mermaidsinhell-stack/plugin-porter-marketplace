@@ -1,13 +1,22 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "plugin-porter-marketplace",
-  "displayName": "Plugin Porter Marketplace",
   "description": "Tools for converting Claude Code plugins to Qwen CLI + MCP architecture",
-  "owner": "mermaidsinhell-stack",
-  "version": "1.0.0",
+  "owner": {
+    "name": "mermaidsinhell-stack",
+    "email": ""
+  },
   "plugins": [
     {
       "name": "plugin-porter",
-      "path": "plugins/plugin-porter"
+      "description": "Automated conversion of Claude Code plugins to Qwen CLI + MCP architecture with specialized agents and MCP tools",
+      "author": {
+        "name": "mermaidsinhell-stack",
+        "email": ""
+      },
+      "source": "./plugins/plugin-porter",
+      "category": "development",
+      "homepage": "https://github.com/mermaidsinhell-stack/plugin-porter-marketplace"
     }
   ]
 }
